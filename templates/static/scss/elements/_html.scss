@@ -1,0 +1,19 @@
+html,
+body {
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+	color: $color-text;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	scroll-behavior: smooth;
+}
+
+body {
+	flex-direction: column;
+}
+
+* {
+	box-sizing: border-box;
+}

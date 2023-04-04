@@ -1,0 +1,11 @@
+.o-link {
+	text-decoration: none;
+
+	&--green {
+		transition: all .4s;
+		&:hover {
+			color: #00B45E !important;
+			text-decoration: underline;
+		}
+	}
+}

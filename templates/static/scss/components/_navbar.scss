@@ -1,0 +1,29 @@
+.navbar {
+	display: flex;
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+	}
+
+	&__link {
+		transition: all .4s;
+		&:hover {
+			color: $color-primary-hover;
+			text-decoration: none;
+		}
+	}
+
+	&__link--active {
+		color: $color-primary;
+	}
+
+	&__item--extended::after {
+		content: "";
+		width: 10px;
+		height: 6px;
+		display: inline-block;
+		margin: 0 0 0 6px;
+		background: url(../img/ico/nav_icon.svg) no-repeat center / cover;
+	}
+}
