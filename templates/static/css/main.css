@@ -393,6 +393,14 @@ a:hover {
   color: #333;
 }
 
+h1 {
+  font-weight: 500;
+  color: #006633;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  letter-spacing: 0.01em;
+}
+
 .o-link {
   text-decoration: none;
 }
