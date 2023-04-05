@@ -502,6 +502,32 @@ h1 {
   text-decoration: underline;
 }
 
+.cards-border {
+  padding: 0 0 80px 0;
+}
+.cards-border__block {
+  min-height: 270px;
+  justify-content: center;
+  align-items: center;
+  margin: -1px -1px 0 0;
+  border: 1px solid #CBCBCB;
+  transition: 0.4s;
+}
+.cards-border__block:hover {
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.2);
+}
+.cards-border__block:hover .cards-border__text {
+  color: #008847;
+}
+.cards-border__img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.cards-border__text {
+  margin: 20px 0 0 0;
+  transition: 0.4s;
+}
+
 .u-bg-primary {
   background: #006633 !important;
 }
