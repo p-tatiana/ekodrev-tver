@@ -424,9 +424,21 @@ h1 {
 }
 
 .top-banner {
+  padding: 10px 0;
   min-height: 44px;
 }
 
+@media screen and (max-width: 992px) {
+  .top-banner {
+    padding: 5px 0;
+    font-size: 0.875rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .top-banner {
+    font-size: 0.625rem;
+  }
+}
 .header-top {
   height: 42px;
 }

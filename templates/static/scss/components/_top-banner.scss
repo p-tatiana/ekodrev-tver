@@ -1,3 +1,17 @@
 .top-banner {
+	padding: 10px 0;
 	min-height: 44px;
+}
+
+@media screen and (max-width: $lg) {
+	.top-banner {
+		padding: 5px 0;
+		font-size: .875rem;
+	}
+}
+
+@media screen and (max-width: $sm) {
+	.top-banner {
+		font-size: .625rem;
+	}
 }
