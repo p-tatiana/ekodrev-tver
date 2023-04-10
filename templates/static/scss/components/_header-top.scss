@@ -2,3 +2,8 @@
 	height: 42px;
 }
 
+@media screen and (max-width: $lg) {
+	.header-top {
+		display: none !important;
+	}
+}
