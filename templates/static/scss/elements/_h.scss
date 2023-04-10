@@ -5,3 +5,17 @@ h1 {
 	line-height: 3.5rem;
 	letter-spacing: 0.01em;
 }
+
+@media screen and (max-width: $lg) {
+	h1 {
+		font-size: 2.25rem;
+		line-height: 2.375rem;
+	}
+}
+
+@media screen and (max-width: $sm) {
+	h1 {
+		font-size: 1.5rem;
+		line-height: 1.625rem;
+	}
+}
