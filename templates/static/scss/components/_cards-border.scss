@@ -18,11 +18,21 @@
 	}
 
 	&__img {
+		width: 100%;
 		object-fit: contain;
 	}
 
 	&__text {
 		margin: 20px 0 0 0;
 		transition: .4s;
+	}
+}
+
+@media screen  and (max-width: $lg) {
+	.cards-border {
+
+		&__text {
+			font-size: .875rem;
+		}
 	}
 }

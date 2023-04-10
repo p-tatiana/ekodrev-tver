@@ -7,7 +7,7 @@
 	}
 
 	&__link {
-		transition: all .4s;
+		transition: all 0.4s;
 		&:hover {
 			color: $color-primary-hover;
 			text-decoration: none;
@@ -25,5 +25,17 @@
 		display: inline-block;
 		margin: 0 0 0 6px;
 		background: url(../img/ico/nav_icon.svg) no-repeat center / cover;
+	}
+}
+
+@media screen and (max-width: $xl) {
+	.navbar {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: $lg) {
+	.navbar {
+		display: none;
 	}
 }

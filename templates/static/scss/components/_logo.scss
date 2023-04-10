@@ -1,0 +1,7 @@
+@media screen and (max-width: $xl) {
+	.logo {
+		&__text {
+			display: none;
+		}
+	}
+}
